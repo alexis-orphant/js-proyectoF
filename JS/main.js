@@ -66,6 +66,7 @@ for(const producto of productos){
             carrito.push(producto);
             const carritoStorage = JSON.stringify(carrito);
             localStorage.setItem("carrito", carritoStorage);
+            alert("el producto fue añadido al carrito")
         });
 };
 
